@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9b233;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #454545;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-container input {
+    padding: 5px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+.sale-banner {
+    text-align: center;
+    background: url('sale-banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+}
+
+.sale-banner h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.sale-banner p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.staff-picks {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.staff-picks h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
